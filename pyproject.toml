@@ -1,0 +1,17 @@
+[project]
+name = "python-dsa-notebook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "gaurav", email = "k7kumargaurav@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = ["ipykernel>=6.30.0"]
+
+[project.scripts]
+python-dsa-notebook = "python_dsa_notebook:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
