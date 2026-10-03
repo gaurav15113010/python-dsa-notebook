@@ -1,3 +1,7 @@
+"""
+Async processing: Process ten suppliers with a maximum of three concurrent tasks, recording individual failure
+"""
+
 import asyncio
 
 suppliers = [
